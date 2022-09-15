@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+#form-sign-up {
+	width: 782px;
+	border: 1px solid #000;
+	border-radius: 6px;
+}
+
+.title {
+	width: 100%;
+	height: 42px;
+	color: #fff;
+	background-color: #1a83d2;
+	line-height: 42px;
+	font-size: 24px;
+	padding-left: 10px;
+}
+
+
+.form-sign-up {
+	display: flex;
+	margin-top: 20px;
+}
+
+.form-sign-up-1, .form-sign-up-2{
+	display: flex;
+	flex-direction: column;
+}
+
+.form-sign-up-1 {
+	margin: 0 20px 0 10px;
+}
+
+.base-input {
+	outline: none;
+	border: 1px solid #999;
+	border-radius: 4px;
+}
+
+.base-input:focus {
+	background-color: rgba(0, 0, 0, 0.04);
+}
+
+.txtinput {
+	width: 305px;
+	height: 30px;
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.selection {
+	width: 80px;
+	height: 28px;
+	margin: 11px 0;
+}
+
+.verification {
+	width: 186px;
+}
+
+.submit {
+	margin: 20px 0 20px 10px;
+	font-size: 20px;
+	color: #fff;
+	background-image: linear-gradient(to bottom, #7fbfef, #278fdd);
+	padding: 8px 32px;
+	outline: none;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	
+}
